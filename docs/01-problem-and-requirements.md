@@ -7,7 +7,7 @@ Six AI agents across several departments: customer service, a product catalog wi
 Operational facts lived **inside the code**:
 
 - Opening hours and holiday exceptions were constants in code steps, copied into every step that needed them (handoff decisions, the "we're closed" reply) and into every bot. A holiday meant editing several places.
-- The product catalog was a set of PDFs edited by hand, sent to the engineer, uploaded, and run through an extraction workflow into a table the agent read. A price change took a day and two people.
+- The product catalog was a set of PDFs edited by hand, sent to the engineer, uploaded, and run through an extraction workflow into a table the agent read. A price change needed two people and a manual run.
 - Problem reports ("the bot told a customer X") often arrived as screenshots in chat, without the customer's number or time. Finding the conversation came before diagnosing it.
 
 Every change went through one person. That person was the bottleneck, and also the single point of failure.
